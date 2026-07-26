@@ -2,7 +2,7 @@ const plays = [
   {
     "id": "play-01",
     "number": 1,
-    "title": "Play 01",
+    "title": "Tight Speed Option Right",
     "image": "assets/plays/play-02.png",
     "sourcePage": 2,
     "tags": [
@@ -16,7 +16,7 @@ const plays = [
   {
     "id": "play-02",
     "number": 2,
-    "title": "Play 02",
+    "title": "Tight Speed Option Left",
     "image": "assets/plays/play-03.png",
     "sourcePage": 3,
     "tags": [
@@ -30,7 +30,7 @@ const plays = [
   {
     "id": "play-03",
     "number": 3,
-    "title": "Play 03",
+    "title": "Spread Speed Option Left",
     "image": "assets/plays/play-04.png",
     "sourcePage": 4,
     "tags": [
@@ -45,7 +45,7 @@ const plays = [
   {
     "id": "play-04",
     "number": 4,
-    "title": "Play 04",
+    "title": "Spread Speed Option Right",
     "image": "assets/plays/play-05.png",
     "sourcePage": 5,
     "tags": [
@@ -60,7 +60,7 @@ const plays = [
   {
     "id": "play-05",
     "number": 5,
-    "title": "Play 05",
+    "title": "Pro L Speed Option Right",
     "image": "assets/plays/play-06.png",
     "sourcePage": 6,
     "tags": [
@@ -75,7 +75,7 @@ const plays = [
   {
     "id": "play-06",
     "number": 6,
-    "title": "Play 06",
+    "title": "Pro R Speed Option Left",
     "image": "assets/plays/play-07.png",
     "sourcePage": 7,
     "tags": [
@@ -90,7 +90,7 @@ const plays = [
   {
     "id": "play-07",
     "number": 7,
-    "title": "Play 07",
+    "title": "Pro R Inside Zone L",
     "image": "assets/plays/play-08.png",
     "sourcePage": 8,
     "tags": [
@@ -104,7 +104,7 @@ const plays = [
   {
     "id": "play-08",
     "number": 8,
-    "title": "Play 08",
+    "title": "Pro L Inside Zone R",
     "image": "assets/plays/play-09.png",
     "sourcePage": 9,
     "tags": [
@@ -118,7 +118,7 @@ const plays = [
   {
     "id": "play-09",
     "number": 9,
-    "title": "Play 09",
+    "title": "Spread Inside Zone Right",
     "image": "assets/plays/play-10.png",
     "sourcePage": 10,
     "tags": [
@@ -132,7 +132,7 @@ const plays = [
   {
     "id": "play-10",
     "number": 10,
-    "title": "Play 10",
+    "title": "Spread Inside Zone Left",
     "image": "assets/plays/play-11.png",
     "sourcePage": 11,
     "tags": [
@@ -146,7 +146,7 @@ const plays = [
   {
     "id": "play-11",
     "number": 11,
-    "title": "Play 11",
+    "title": "Spread Flip Right",
     "image": "assets/plays/play-12.png",
     "sourcePage": 12,
     "tags": [
@@ -160,7 +160,7 @@ const plays = [
   {
     "id": "play-12",
     "number": 12,
-    "title": "Play 12",
+    "title": "Spread Flip Left",
     "image": "assets/plays/play-13.png",
     "sourcePage": 13,
     "tags": [
@@ -174,7 +174,7 @@ const plays = [
   {
     "id": "play-13",
     "number": 13,
-    "title": "Play 13",
+    "title": "Pro L Flip Left",
     "image": "assets/plays/play-14.png",
     "sourcePage": 14,
     "tags": [
@@ -188,7 +188,7 @@ const plays = [
   {
     "id": "play-14",
     "number": 14,
-    "title": "Play 14",
+    "title": "Pro R Flip Right",
     "image": "assets/plays/play-15.png",
     "sourcePage": 15,
     "tags": [
@@ -202,7 +202,7 @@ const plays = [
   {
     "id": "play-15",
     "number": 15,
-    "title": "Play 15",
+    "title": "Tight Toss Right",
     "image": "assets/plays/play-16.png",
     "sourcePage": 16,
     "tags": [
@@ -215,7 +215,7 @@ const plays = [
   {
     "id": "play-16",
     "number": 16,
-    "title": "Play 16",
+    "title": "Tight Toss Left",
     "image": "assets/plays/play-17.png",
     "sourcePage": 17,
     "tags": [
@@ -228,7 +228,7 @@ const plays = [
   {
     "id": "play-17",
     "number": 17,
-    "title": "Play 17",
+    "title": "Spread Toss Right",
     "image": "assets/plays/play-18.png",
     "sourcePage": 18,
     "tags": [
@@ -242,7 +242,7 @@ const plays = [
   {
     "id": "play-18",
     "number": 18,
-    "title": "Play 18",
+    "title": "Spread Toss Left",
     "image": "assets/plays/play-19.png",
     "sourcePage": 19,
     "tags": [
@@ -256,7 +256,7 @@ const plays = [
   {
     "id": "play-19",
     "number": 19,
-    "title": "Play 19",
+    "title": "Pro Left Toss Left",
     "image": "assets/plays/play-20.png",
     "sourcePage": 20,
     "tags": [
@@ -270,7 +270,7 @@ const plays = [
   {
     "id": "play-20",
     "number": 20,
-    "title": "Play 20",
+    "title": "Pro Right Toss Right",
     "image": "assets/plays/play-21.png",
     "sourcePage": 21,
     "tags": [
@@ -284,7 +284,7 @@ const plays = [
   {
     "id": "play-21",
     "number": 21,
-    "title": "Play 21",
+    "title": "Quads Wing Counter Right",
     "image": "assets/plays/play-22.png",
     "sourcePage": 22,
     "tags": [
@@ -297,7 +297,7 @@ const plays = [
   {
     "id": "play-22",
     "number": 22,
-    "title": "Play 22",
+    "title": "Quads Wing Counter Left",
     "image": "assets/plays/play-23.png",
     "sourcePage": 23,
     "tags": [
@@ -313,15 +313,9 @@ const playList = document.querySelector("#playList");
 const playCount = document.querySelector("#playCount");
 const searchInput = document.querySelector("#searchInput");
 const activeTitle = document.querySelector("#activeTitle");
-const activeMeta = document.querySelector("#activeMeta");
-const tagRow = document.querySelector("#tagRow");
 const playImage = document.querySelector("#playImage");
-const previousButton = document.querySelector("#previousButton");
-const nextButton = document.querySelector("#nextButton");
-const fullscreenButton = document.querySelector("#fullscreenButton");
 const installButton = document.querySelector("#installButton");
 const segments = Array.from(document.querySelectorAll(".segment"));
-const diagramFrame = document.querySelector(".diagram-frame");
 
 let activeFilter = "All";
 let filtered = [...plays];
@@ -351,7 +345,6 @@ function renderList() {
     button.dataset.id = play.id;
     button.innerHTML = `
       <span class="play-title">${play.title}</span>
-      <span class="play-tags">${play.tags.join(" · ")}</span>
     `;
     button.addEventListener("click", () => setActive(play.id));
     playList.append(button);
@@ -363,16 +356,8 @@ function renderList() {
 function renderActive() {
   const play = plays.find((item) => item.id === activeId) ?? plays[0];
   activeTitle.textContent = play.title;
-  activeMeta.textContent = `Source page ${play.sourcePage}`;
   playImage.src = play.image;
   playImage.alt = `${play.title} Cranford Cougars play diagram`;
-  tagRow.innerHTML = "";
-  play.tags.forEach((label) => {
-    const tag = document.createElement("span");
-    tag.className = "tag";
-    tag.textContent = label;
-    tagRow.append(tag);
-  });
 
   document.querySelectorAll(".play-row").forEach((row) => {
     row.classList.toggle("active", row.dataset.id === activeId);
@@ -384,13 +369,6 @@ function setActive(id) {
   renderActive();
 }
 
-function move(delta) {
-  const source = filtered.length ? filtered : plays;
-  const index = source.findIndex((play) => play.id === activeId);
-  const next = source[(index + delta + source.length) % source.length];
-  setActive(next.id);
-}
-
 segments.forEach((button) => {
   button.addEventListener("click", () => {
     activeFilter = button.dataset.filter;
@@ -400,13 +378,6 @@ segments.forEach((button) => {
 });
 
 searchInput.addEventListener("input", renderList);
-previousButton.addEventListener("click", () => move(-1));
-nextButton.addEventListener("click", () => move(1));
-fullscreenButton.addEventListener("click", () => {
-  if (diagramFrame.requestFullscreen) {
-    diagramFrame.requestFullscreen();
-  }
-});
 
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
