@@ -311,26 +311,16 @@ const plays = [
 
 const playList = document.querySelector("#playList");
 const playCount = document.querySelector("#playCount");
-const searchInput = document.querySelector("#searchInput");
 const activeTitle = document.querySelector("#activeTitle");
 const playImage = document.querySelector("#playImage");
 const installButton = document.querySelector("#installButton");
-const segments = Array.from(document.querySelectorAll(".segment"));
 
-let activeFilter = "All";
 let filtered = [...plays];
 let activeId = plays[0]?.id;
 let installPrompt = null;
 
-function matches(play) {
-  const query = searchInput.value.trim().toLowerCase();
-  const haystack = [play.title, ...play.tags].join(" ").toLowerCase();
-  const filterMatch = activeFilter === "All" || play.tags.includes(activeFilter);
-  return filterMatch && (!query || haystack.includes(query));
-}
-
 function renderList() {
-  filtered = plays.filter(matches);
+  filtered = [...plays];
   if (!filtered.some((play) => play.id === activeId)) {
     activeId = filtered[0]?.id ?? plays[0].id;
   }
@@ -368,16 +358,6 @@ function setActive(id) {
   activeId = id;
   renderActive();
 }
-
-segments.forEach((button) => {
-  button.addEventListener("click", () => {
-    activeFilter = button.dataset.filter;
-    segments.forEach((item) => item.classList.toggle("active", item === button));
-    renderList();
-  });
-});
-
-searchInput.addEventListener("input", renderList);
 
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
